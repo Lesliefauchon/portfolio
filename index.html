@@ -57,9 +57,8 @@
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#Accueil" class="active"><i class="bi bi-house navicon"></i>Accueil</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> A propos de moi </a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Parcours </a></li>
         <li><a href="#competences"><i class="bi bi-hdd-stack navicon"></i> Compétences</a></li>
         <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Mes documents</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
@@ -129,20 +128,29 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title">Diplômes</h3>
+
             <div class="resume-item">
               <h4>BTS SIO option SLAM</h4>
               <h5>2023 - 2025</h5>
               <p><em>Lycée Pasteur Mont-Roland, Dole</em></p>
-              <p>BTS Serives Informatiques aux organisations option Solutions Logicielles et Applications Métiers. </p>
+              <p>BTS Serives Informatiques aux Organisations : <br>
+                option SLAM : Solutions Logicielles et Applications Métiers. </p>
             </div><!-- Edn Resume Item -->
 
             <div class="resume-item">
               <h4>Baccalauréat générale</h4>
-              <h5>2023 - 2020</h5>
+              <h5>2020 - 2023</h5>
               <p><em>Lycée Nicéphore Niepce-Balleure, Chalon-sur-Saône</em></p>
               <p>Spécialité : Humanité, littérature et philosophie</p>
               <p>Spécialité : Numérique et Science de l'Informatique</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Brevet des collèges</h4>
+              <h5>2016 - 2020</h5>
+              <p><em>Collège Anne-Frank, Montchanin</em></p>
+              <p> Diplôme PSC1 </p>
             </div><!-- Edn Resume Item -->
 
           </div>
@@ -240,11 +248,7 @@
           </div><!-- End Service Item -->
 
         </div>
-
       </div>
-
-      </div>
-
     </section><!-- /Services Section -->
 
     <!-- Contact Section -->
@@ -265,9 +269,18 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email</h3>
-                  <p>leslie.fauchon71@gmail.com</p>
+                  <p>leslie.fauchon71@gmail.com</p> 
+
                 </div>
               </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-linkedin"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <a href="https://www.linkedin.com/in/leslie-fauchon-7b74562b4/" class="linkedin"> Cliquez ici  </a>
+                </div>
+              </div>
 
             </div>
           </div>
@@ -319,3 +332,36 @@
 </body>
 
 </html>
+
+<script>
+
+/*
+const copyToClipboard = async () => {
+  try {
+    const element = document.querySelector(".user-select-all");
+    await navigator.clipboard.writeText(element.textContent);
+    console.log("Text copied to clipboard!");
+    // Optional: Display a success message to the user
+  } catch (error) {
+    console.error("Failed to copy to clipboard:", error);
+    // Optional: Display an error message to the user
+  }
+};
+
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+} 
+*/
+
+</script>
